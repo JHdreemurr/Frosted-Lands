@@ -1,0 +1,14 @@
+name: Cobalt Conveyor
+type: Conveyor
+description: An armored conveyor made from titanium and armored with cobalt. Will accept inputs from the sides.
+requirements: [
+"titanium/2"
+"cobalt/1"
+]
+speed: 0.075
+displayedSpeed: 1
+research: Core-Fractal
+researchCost: [
+"titanium/20"
+"cobalt/10"
+]
