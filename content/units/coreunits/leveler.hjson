@@ -1,20 +1,25 @@
 name: "Leveler"
 description: "Defends the Fractal core from enemies by launching light seeker missiles at them. And expands their team's base by building structures."
-flying: true
-type: flying
+flying: false
+type: mech
+speed: 1.3
+canBoost: true
 speed: 2
 drag: 0.1
 rotateSpeed: 15
+circleTarget: true
+lightRadius: 25
+lightColor: 00ddff
 engineOffset: 6
 health: 760
 armor: 2
 mineTier: 1
-mineSpeed: 7
+mineSpeed: 6
 itemCapacity: 30
 buildSpeed: 1.5
 weapons: [
       {
-       name: small-seeker-missile
+       name: missile-launcher
        reload: 56
        top: false
        x: 0
@@ -22,8 +27,8 @@ weapons: [
        mirror: true
          bullet: {
            type: MissileBulletType
-           speed: 7.8
-           lifetime: 36
+           speed: 4
+           lifetime: 58
            damage: 24
            buildingDamageMultiplier: 0.01
            homingpower: 2
