@@ -9,7 +9,7 @@ requirements: [
 "titanium/4000"
 "cobalt/3500"
 ]
-unitType: Leveler
+unitType: leveler
 category: effect
 health: 7000
 size: 3
