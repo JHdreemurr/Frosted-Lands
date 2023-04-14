@@ -5,7 +5,7 @@ alwaysUnlocked: true
 mesh: {
   type: NoiseMesh
   planet: frostthorn
-  seed: 2080
+  seed: 137
   divisions: 4
   color1: 0095ff
   color2: 0034d1
@@ -22,10 +22,10 @@ generator: {
   max: 350
   radMin: 480
   radMax: 480
-  seed: 11499
+  seed: 388
   berylChance: 0
 }
-orbitSpacing: 7
+orbitSpacing: 3
 radius: 2
 minZoom: 1.8
 drawOrbit: true
