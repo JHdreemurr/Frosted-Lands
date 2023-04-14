@@ -21,9 +21,9 @@ weapons: [
        name: missile-launcher
        reload: 56
        top: false
-       x: 0
-       y: 1
-       mirror: true
+       x: 3
+       y: 0
+       mirror: false
          bullet: {
            type: MissileBulletType
            speed: 4
