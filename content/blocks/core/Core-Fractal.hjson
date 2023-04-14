@@ -1,0 +1,22 @@
+name: "Core: Fractal"
+description: Core of the base. Armored and Tanky. Once destroyed, the sector is lost.
+details: [gold] please ignore my horrible sprites
+itemCapacity: 3000
+type: CoreBlock
+alwaysUnlocked: true
+requirements: [
+"titanium/4000"
+"cobalt/3500"
+]
+unitType: Leveler
+category: effect
+health: 7000
+size: 3
+armor: 3
+unitCapModifier: 5
+research: {
+        root: true
+        name: "Frostthorn"
+        isFirstTier: true
+        planet: "frostthorn"
+}
