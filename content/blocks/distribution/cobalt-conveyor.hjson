@@ -1,5 +1,7 @@
 name: Cobalt Conveyor
 type: Conveyor
+health: 180
+armor: 2
 description: An armored conveyor made from titanium and armored with cobalt. Will accept inputs from the sides.
 requirements: [
 "titanium/2"
