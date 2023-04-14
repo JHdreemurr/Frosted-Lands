@@ -4,29 +4,29 @@ description: A frozen wasteland of a planet with valuble and unique metals and c
 alwaysUnlocked: true
 mesh: {
   type: NoiseMesh
-  planet: frostthorn
-  seed: 137
+  planet: pugneo
+  seed: 69
   divisions: 4
-  color1: 0095ff
-  color2: 0034d1
+  color1: 00ffff
+  color2: 00ccff
   radius: 1.2
   octaves: 3
   persistence: 0.8
   scale: 4
   mag: 1.5
 }
-sectorSize: 7.5
+sectorSize: 3.5
 #cloudMesh: {}
 generator: {
-  min: 80
-  max: 350
+  min: 100
+  max: 100
   radMin: 480
   radMax: 480
-  seed: 388
+  seed: 69420
   berylChance: 0
 }
-orbitSpacing: 3
-radius: 2
+orbitSpacing: 4
+radius: 1.5
 minZoom: 1.8
 drawOrbit: true
 atmosphereRadIn: 0
@@ -36,7 +36,7 @@ updateLighting: true
 sectorSeed: 0
 bloom: false
 visible: true
-atmosphereColor: #ccffff
+atmosphereColor: ccffff
 iconColor: 00ffff
 hasAtmosphere: true
 allowWaveSimulation: true
@@ -46,5 +46,5 @@ defaultCore: Core-Fractal
 parent: sun
 solarSystem: sun
 hiddenItems: [
-    copper,scrap,lead,titanium,metaglass,thorium,phase-fabric,carbide,beryllium,coal,pyratite,surge-alloy,spore-pod,tungsten,oxide,blast-compound,graphite
+    copper,scrap,lead,metaglass,thorium,phase-fabric,carbide,beryllium,coal,pyratite,surge-alloy,spore-pod,tungsten,oxide,blast-compound,graphite
 ]
