@@ -1,0 +1,10 @@
+planet: frostthorn
+localizedName: Gateway
+name: "gateway"
+alwaysUnlocked: true
+sector: 36
+captureWave: 17
+description: "A gateway into the fundamentals of Frostthorn. A perfect landing zone to research the basic nessecary buildings for the harsh conditions of the new planet."
+research: {
+parent: core-fractal
+}
