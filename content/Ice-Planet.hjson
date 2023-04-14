@@ -1,0 +1,50 @@
+localizedName: Frostthorn
+allowLaunchScematics: true
+description: A frozen wasteland of a planet with valuble and unique metals and crystals, the Authority has expanded here to research the crystals and their unique properties.
+alwaysUnlocked: true
+mesh: {
+  type: NoiseMesh
+  planet: frostthorn
+  seed: 2080
+  divisions: 4
+  color1: 0095ff
+  color2: 0034d1
+  radius: 1.2
+  octaves: 3
+  persistence: 0.8
+  scale: 4
+  mag: 1.5
+}
+sectorSize: 7.5
+#cloudMesh: {}
+generator: {
+  min: 80
+  max: 350
+  radMin: 480
+  radMax: 480
+  seed: 11499
+  berylChance: 0
+}
+orbitSpacing: 7
+radius: 2
+minZoom: 1.8
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: true
+sectorSeed: 0
+bloom: false
+visible: true
+atmosphereColor: #ccffff
+iconColor: 00ffff
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+defaultCore: core-annex
+parent: sun
+solarSystem: sun
+hiddenItems: [
+    copper,scrap,lead,titanium,metaglass,thorium,phase-fabric,carbide,beryllium,coal,pyratite,surge-alloy,spore-pod,tungsten,oxide,blast-compound,graphite
+]
