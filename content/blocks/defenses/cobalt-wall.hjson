@@ -1,0 +1,16 @@
+name: "Cobalt Wall"
+type: Wall
+solid: true
+description: "An armored cobalt wall."
+requirements: [
+"titanium/8"
+"cobalt/4"
+]
+armor: 3
+health: 975
+research: Core-Fractal
+category: defense
+researchCost: [
+"titanium/25"
+"cobalt/15"
+]
