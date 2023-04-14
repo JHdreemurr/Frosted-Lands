@@ -12,7 +12,7 @@ lightColor: 00ddff
 engineOffset: 6
 health: 760
 armor: 2
-mineTier: 1
+mineTier: 2
 mineSpeed: 6
 itemCapacity: 30
 buildSpeed: 1.5
