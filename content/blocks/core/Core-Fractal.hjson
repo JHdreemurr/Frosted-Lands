@@ -18,5 +18,5 @@ research: {
         root: true
         name: "Frostthorn"
         isFirstTier: true
-        planet: "frostthorn"
+        planet: Ice-Planet
 }
