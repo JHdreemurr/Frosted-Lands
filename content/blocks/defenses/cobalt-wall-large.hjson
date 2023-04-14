@@ -1,1 +1,17 @@
-r
+name: "Cobalt Wall"
+type: Wall
+solid: true
+size: 2
+description: "A larger cobalt wall, still armored."
+requirements: [
+"titanium/32"
+"cobalt/16"
+]
+armor: 3
+health: 975
+research: Core-Fractal
+category: defense
+researchCost: [
+"titanium/100"
+"cobalt/75"
+]
