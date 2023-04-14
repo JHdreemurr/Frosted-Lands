@@ -1,6 +1,6 @@
 name: "Core: Fractal"
 description: Core of the base. Armored and Tanky. Once destroyed, the sector is lost.
-details: [gold] please ignore my horrible sprites
+details: please ignore my horrible sprites
 itemCapacity: 3000
 type: CoreBlock
 alwaysUnlocked: true
