@@ -42,7 +42,7 @@ hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
-defaultCore: core-annex
+defaultCore: Core-Fractal
 parent: sun
 solarSystem: sun
 hiddenItems: [
