@@ -3,6 +3,7 @@ description: Core of the base. Armored and Tanky. Once destroyed, the sector is 
 details: please ignore my horrible sprites
 itemCapacity: 3000
 type: CoreBlock
+solid: false
 alwaysUnlocked: true
 requirements: [
 "titanium/4000"
