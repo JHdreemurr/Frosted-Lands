@@ -1,0 +1,9 @@
+name: "Cobalt"
+hardness: 1
+color: 001a9c
+description: "A strong material found on Frostthorn, an essential part in buildings on frostthorn"
+details: "One of the many materials found on Frostthorn."
+explosiveness: 0
+flammability: -15
+radioactivity: 0
+charge: 0
