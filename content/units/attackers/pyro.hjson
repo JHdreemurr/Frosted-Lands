@@ -6,7 +6,7 @@ targetGround: true
 targetAir: false
 immunities: [burning]
 health: 660
-speed: 1.0
+speed: .3
 rotateSpeed: 45
 circleTarget: true
 lightRadius: 25
@@ -14,20 +14,21 @@ lightColor: ff9500
 weapons: [
   {
   name: flamethrower
-  y: 0
+  y: 1
   x: 0
+  mirror: false
   shootY: 2
-  reload: 14
+  reload: 6
   shootSound: flame
   rotate: false
   ejectEffect: none
   bullet: {
     speed: 7
-    damage: 20
+    damage: 24
     hitSize: 7
     lifetime: 12
-    width: 1
-    height: 1
+    width: 2
+    height: 6
     pierce: true
     statusDuration: 600
     shootEffect: shootSmallFlame
