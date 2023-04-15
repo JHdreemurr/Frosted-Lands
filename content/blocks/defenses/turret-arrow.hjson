@@ -1,12 +1,12 @@
 type: ItemTurret
 localizedName: Arrow
 description: A turret which shoots cobalt lasers at a moderate pace, a good defense for starting off a mission. Cannot target air units.
-size: 2
+size: 1
 health: 340
 range: 80
 targetGround: true
 targetAir: false
-reload: 60
+reload: 15
 shots: 1
 requirements: [
   cobalt/45
@@ -15,18 +15,27 @@ requirements: [
 ammoTypes: {
   cobalt: {
     type: LaserBulletType
-    frontColor: 0200FF
-    backColor: 0021E7
+    frontColor: 0051b5
+    backColor: 0051b5
     damage: 14
-    speed: 5
+    speed: 0
     lifetime: 80
     ammoMultiplier: 3
-    reloadMultiplier: 0.5
+    reloadMultiplier: 1
     height: 6
     width: 2
-    shootsound: shoot
+    shootsound: lasershoot
     shootEffect: shootBig
-    smokeEffect: shootBigSmoke
+    smokeEffect: {
+       type: WaveEffect
+       sizeFrom: 0
+       sizeTo: 8
+       colorFrom: 0051b5
+       colorTo: 0051b5
+       lifetime: 10
+       strokeFrom: 1
+       strokeTo: 0
+     }
    }
  }
 researchCost: [
