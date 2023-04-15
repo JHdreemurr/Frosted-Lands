@@ -1,7 +1,7 @@
 type: ItemTurret
 localizedName: Arrow
 description: A turret which shoots cobalt lasers at a moderate pace, a good defense for starting off a mission. Cannot target air units.
-size: 1
+size: 2
 health: 340
 range: 80
 targetGround: true
