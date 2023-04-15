@@ -4,15 +4,15 @@ description: A frozen wasteland of a planet with valuble and unique metals and c
 alwaysUnlocked: true
 mesh: {
   type: NoiseMesh
-  planet: pugneo
-  seed: 69
+  planet: frostthorn
+  seed: 5764
   divisions: 4
   color1: 00ffff
   color2: 00ccff
   radius: 1.2
   octaves: 3
   persistence: 0.8
-  scale: 4
+  scale: 8
   mag: 1.5
 }
 sectorSize: 3.5
@@ -22,12 +22,12 @@ generator: {
   max: 100
   radMin: 480
   radMax: 480
-  seed: 69420
+  seed: 1478
   berylChance: 0
 }
 orbitSpacing: 4
 radius: 1.5
-minZoom: 1.8
+minZoom: .6
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
@@ -38,7 +38,7 @@ bloom: false
 visible: true
 atmosphereColor: ccffff
 iconColor: 00ffff
-hasAtmosphere: true
+hasAtmosphere: false
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
