@@ -7,10 +7,10 @@ requirements: [
 "titanium/2"
 "cobalt/1"
 ]
-speed: 0.075
+speed: 0.06
 displayedSpeed: 1
 research: Core-Fractal
 researchCost: [
-"titanium/5"
+"titanium/15"
 "cobalt/10"
 ]
