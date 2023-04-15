@@ -1,0 +1,15 @@
+type: Router
+name: "Cobalt Router"
+solid: true
+description: "A cobalt router. Acts like a normal router."
+requirements: [
+"titanium/2"
+"cobalt/3"
+]
+health: 180
+research: cobalt-conveyor
+category: distribution
+researchCost: [
+"titanium/20"
+"cobalt/15"
+]
