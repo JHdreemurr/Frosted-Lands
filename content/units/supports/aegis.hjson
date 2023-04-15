@@ -67,6 +67,7 @@ type: ShieldArcAbility
    whenShooting: false
    width: 6
 }
+{
 type: ForceFieldAbility
    radius: 60
    regen: 0.1
