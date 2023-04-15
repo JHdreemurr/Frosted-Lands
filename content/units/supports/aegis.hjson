@@ -1,1 +1,82 @@
-
+type: mech
+localizedName: Aegis
+description: The aegis supports its allies with a repair field and an energy shield, also uses a heavy particle beam and a lightning field.
+flying: false
+targetGround: true
+targetAir: false
+immunities: [burning, melting, freezing, blasted]
+health: 1120
+speed: .65
+rotateSpeed: 45
+circleTarget: true
+lightRadius: 25
+lightColor: bbffff
+weapons: [
+  {
+  name: flamethrower
+  y: 1
+  x: 0
+  mirror: false
+  rotate: false
+  ejectEffect: none
+  bullet: {
+    type: PointLaserBulletType
+    pierce: true
+    statusDuration: 600
+    shootEffect: shootSmallFlame
+    hitEffect: hitFlameSmall
+    status: burning
+    keepVelocity: false
+    hittable: false
+    }
+  }
+]
+abilities: [
+{
+type: MoveEffectAbility
+x: 0
+y: 0
+color: bbffff
+}
+{
+type: EnergyFieldAbility
+x: 0
+y: 0
+damage: 18
+reload: 80
+status: freezing
+healPercent: 5
+effectRadius: 6
+sectors: 6
+range: 60
+rotateSpeed: 1
+maxTargets: 10
+color: bbffff
+useAmmo: false
+}
+{
+type: ShieldArcAbility
+   radius: 45
+   regen: 0.1
+   max: 200
+   cooldown: 75
+   angle: 80
+   angleOffset: 0
+   x: 0
+   y: 3
+   whenShooting: false
+   width: 6
+}
+type: ForceFieldAbility
+   radius: 60
+   regen: 0.1
+   max: 200
+   cooldown: 75
+}
+{
+type: RepairFieldAbility
+amount: 20
+reload: 100
+range: 60
+}
+]
