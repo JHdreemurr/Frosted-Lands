@@ -1,0 +1,37 @@
+type: ItemTurret
+localizedName: Arrow
+description: A turret which shoots cobalt lasers at a moderate pace, a good defense for starting off a mission. Cannot target air units.
+size: 1
+health: 340
+range: 80
+targetGround: true
+targetAir: false
+reload: 60
+shots: 1
+requirements: [
+  cobalt/45
+  titanium/20
+]
+ammoTypes: {
+  cobalt: {
+    type: LaserBulletType
+    frontColor: 0200FF
+    backColor: 0021E7
+    damage: 14
+    speed: 5
+    lifetime: 80
+    ammoMultiplier: 3
+    reloadMultiplier: 0.5
+    height: 6
+    width: 2
+    shootsound: shoot
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+   }
+ }
+researchCost: [
+"cobalt/125"
+"titanium/100"
+]
+category: turret
+research: Core-Fractal
