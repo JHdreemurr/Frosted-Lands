@@ -1,0 +1,41 @@
+type: mech
+localizedName: Pyro
+description: The pyro uses fire to solve it's problems, burning enemy buildings and units alike with a flamethrower. Has immunity to flames.
+flying: false
+targetGround: true
+targetAir: false
+immunities: [burning]
+health: 660
+speed: 1.0
+rotateSpeed: 45
+circleTarget: true
+lightRadius: 25
+lightColor: ff9500
+weapons: [
+  {
+  name: flamethrower
+  y: 0
+  x: 0
+  shootY: 2
+  reload: 14
+  shootSound: flame
+  rotate: false
+  ejectEffect: none
+  bullet: {
+    speed: 7
+    damage: 20
+    hitSize: 7
+    lifetime: 12
+    width: 1
+    height: 1
+    pierce: true
+    statusDuration: 600
+    shootEffect: shootSmallFlame
+    hitEffect: hitFlameSmall
+    despawnEffect: none
+    status: burning
+    keepVelocity: false
+    hittable: false
+    }
+  }
+]
