@@ -1,6 +1,0 @@
-name: "Pure Titanium"
-variants: 3
-size: 1
-itemDrop: "titanium"
-type: OreBlock
-tier: 1
