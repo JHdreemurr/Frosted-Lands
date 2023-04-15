@@ -14,18 +14,21 @@ lightColor: bbffff
 weapons: [
   {
   name: flamethrower
+  reload: 9999
   y: 1
   x: 0
   mirror: false
   rotate: false
   ejectEffect: none
   bullet: {
+    range: 60
+    shootsound: none
     type: PointLaserBulletType
     pierce: true
     statusDuration: 600
-    shootEffect: shootSmallFlame
+    drawSize: 30
     hitEffect: hitFlameSmall
-    status: burning
+    status: freezing
     keepVelocity: false
     hittable: false
     }
@@ -43,13 +46,13 @@ type: EnergyFieldAbility
 x: 0
 y: 0
 damage: 18
-reload: 80
+reload: 35
 status: freezing
-healPercent: 5
+healPercent: 1
 effectRadius: 6
 sectors: 6
 range: 60
-rotateSpeed: 1
+rotateSpeed: 4
 maxTargets: 10
 color: bbffff
 useAmmo: false
@@ -63,7 +66,7 @@ type: ShieldArcAbility
    angle: 80
    angleOffset: 0
    x: 0
-   y: 3
+   y: 0.1
    whenShooting: false
    width: 6
 }
