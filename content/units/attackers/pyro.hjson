@@ -6,7 +6,7 @@ targetGround: true
 targetAir: false
 immunities: [burning]
 health: 660
-speed: .3
+speed: .85
 rotateSpeed: 45
 circleTarget: true
 lightRadius: 25
