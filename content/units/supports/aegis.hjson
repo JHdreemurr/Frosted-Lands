@@ -14,7 +14,6 @@ lightColor: bbffff
 weapons: [
   {
   name: flamethrower
-  reload: 8
   y: 1
   x: 0
   mirror: false
@@ -22,7 +21,7 @@ weapons: [
   ejectEffect: none
   bullet: {
     range: 60
-    shootsound: none
+    shootsound: Missileshoot
     type: PointLaserBulletType
     pierce: true
     statusDuration: 600
@@ -37,13 +36,13 @@ weapons: [
 abilities: [
 {
 type: MoveEffectAbility
-x: 3
+x: 10
 y: 0
 color: bbffff
 }
 {
 type: MoveEffectAbility
-x: -3
+x: -10
 y: 0
 color: bbffff
 }
