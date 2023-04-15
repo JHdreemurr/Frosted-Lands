@@ -5,7 +5,7 @@ flying: false
 targetGround: true
 targetAir: false
 immunities: [burning]
-health: 660
+health: 270
 speed: .85
 rotateSpeed: 45
 circleTarget: true
