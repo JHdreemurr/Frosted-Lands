@@ -7,7 +7,7 @@ requirements: [
 cobalt/15
 titanium/35
 ]
-tier: 2
+tier: 3
 category: production
 drillTime: 150
 description: "A drill made from titanium and armored with Cobalt, a metal native to Frostthorn."
