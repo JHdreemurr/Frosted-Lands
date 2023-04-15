@@ -1,0 +1,10 @@
+planet: frostthorn
+localizedName: Gateway
+name: "gateway"
+alwaysUnlocked: true
+sector: 136
+captureWave: 4
+description: "The perfect sector to begin a conquest and learn the fundamentals of frostthorn."
+research: {
+parent: Core-Fractal
+}
