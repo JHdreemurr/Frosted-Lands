@@ -11,6 +11,6 @@ speed: 0.075
 displayedSpeed: 1
 research: Core-Fractal
 researchCost: [
-"titanium/20"
+"titanium/5"
 "cobalt/10"
 ]
