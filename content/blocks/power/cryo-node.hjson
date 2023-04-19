@@ -1,0 +1,14 @@
+name: "Cryo Node"
+description: "Transmits power in a plus shape."
+type: BeamNode
+category: power
+consumesPower: true
+outputsPower: true
+requirements: [
+"cobalt/3"
+]
+range: 15
+consumes: {
+    powerBuffered: 2500
+}
+research: cyro-panel
