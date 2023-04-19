@@ -1,0 +1,30 @@
+type: hover
+localizedName: Lance
+description: The lance is an anti heavy unit with a large laser which destroys almost everything it touches.
+flying: false
+targetGround: true
+targetAir: true
+health: 570
+speed: .65
+rotateSpeed: 35
+circleTarget: false
+lightRadius: 25
+lightColor: ffffff
+weapons: [
+  {
+   name: big-death-laser
+    x: 0
+    y: -0.25
+    reload: 880
+    rotate: true
+    rotateSpeed: 45
+    inaccuracy: 0
+    shootSound: pew
+    bullet: {
+      type: LaserBulletType
+      damage: 2500
+      pierce: false
+      
+    }  
+  }
+]
