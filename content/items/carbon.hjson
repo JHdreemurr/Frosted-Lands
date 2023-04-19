@@ -1,0 +1,9 @@
+name: "Carbon"
+hardness: 1
+color: 303030
+description: "A strong yet flexible material used in unit creation. Refined for unit creation."
+details: "One of the many materials found on Frostthorn."
+explosiveness: 0
+flammability: 5
+radioactivity: 0
+charge: 0
