@@ -1,0 +1,15 @@
+type: SolarGenerator
+name: "Cryo Panel"
+description: "Generates a small amount of power from the sun."
+requirements: [
+     "cobalt/15"
+     "titanium/5"
+]
+powerProduction: 1
+research: cobalt-drill
+parent: Core-Fractal
+category: power
+researchCost: [
+"cobalt/100"
+"titanium/50"
+]
