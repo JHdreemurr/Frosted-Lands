@@ -5,8 +5,8 @@ flying: false
 targetGround: true
 targetAir: true
 health: 570
-speed: .65
-rotateSpeed: 35
+speed: .45
+rotateSpeed: 15
 circleTarget: false
 lightRadius: 25
 lightColor: ffffff
@@ -17,14 +17,19 @@ weapons: [
     y: -0.25
     reload: 880
     rotate: true
-    rotateSpeed: 45
+    rotateSpeed: 25
     inaccuracy: 0
     shootSound: pew
     bullet: {
       type: LaserBulletType
       damage: 2500
+      collides: true
       pierce: false
-      
+      hittable: false
+      absorbable: true
+      lifetime: 28
+      length: 340
+      width: 20
     }  
   }
 ]
