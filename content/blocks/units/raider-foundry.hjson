@@ -1,10 +1,10 @@
 name: "Raider Foundry"
 size: 3
 type: UnitFactory
-health: 560
+health: 1660
 category: units
 consumes: {
-power: 1.5
+power: 10
 }
 description: "Constructs basic raider units, output units cannot be upgraded."
 "plans": [
@@ -12,19 +12,22 @@ description: "Constructs basic raider units, output units cannot be upgraded."
    "unit": "glaive"
         requirements: [
               {"item": "cobalt", "amount": 20}
-              {"item": "titanium", "amount": 15}
+              {"item": "carbon", "amount": 15}
         ]
-   time: 1400
+   time: 800
    }
    {
    "unit": "pyro"
        requirements: [
+              {"item": "cobalt", "amount": 40}
+              {"item": "carbon", "amount": 20}
+              {"item": "titanium", "amount": 15}
        ]
-   time: 1750
+   time: 1000
    }
 ]
 requirements: [
-"cadocopper/500"
-"anolead/345"
-"siligone/250"
+"cobalt/500"
+"titanium/345"
+"carbon/250"
 ]
