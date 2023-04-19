@@ -1,15 +1,15 @@
 type: mech
 localizedName: Glaive
-description: The Glaive is a fast lightweight unit, good in large numbers or for scouting in missions with fog.
+description: The Glaive is a fast lightweight unit, good in large numbers or for scouting in missions with fog. Can quickly regenerate health.
 flying: false
 targetGround: true
 targetAir: true
 health: 270
 speed: 1.05
-rotateSpeed: 45
+rotateSpeed: 65
 circleTarget: true
 lightRadius: 25
-lightColor: ff9500
+lightColor: ffffff
 weapons: [
   {
    name: mini-autocannon
@@ -23,8 +23,8 @@ weapons: [
       damage: 18
       speed: 6
       recoil: 0
-      frontColor: 0200FF
-      backColor: 0021E7
+      frontColor: ffae00
+      backColor: ff9100
       collidesTeam: false
       lifetime: 25
       lightColor: 3161FF
@@ -32,8 +32,8 @@ weapons: [
         type: WaveEffect
         sizeFrom: 0
         sizeTo: 8
-        colorFrom: 3A52F1
-        colorTo: 3A52F1
+        colorFrom: ff9100
+        colorTo: ff9100
         lifetime: 10
         strokeFrom: 1
         strokeTo: 0
