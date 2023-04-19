@@ -38,5 +38,5 @@ researchCost: [
 ]
 research: {
 parent: Core-Fractal
-objectives: [cryo panel] [cryo node]
+objectives: [cryo-panel] [cryo-node]
 }
