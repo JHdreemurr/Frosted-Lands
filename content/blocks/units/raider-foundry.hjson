@@ -3,8 +3,13 @@ size: 3
 type: UnitFactory
 health: 1660
 category: units
+requirements: [
+"cobalt/125"
+"titanium/50"
+"carbon/75"
+]
 consumes: {
-power: 10
+power: 3
 }
 description: "Constructs basic raider units, output units cannot be upgraded."
 "plans": [
@@ -26,8 +31,12 @@ description: "Constructs basic raider units, output units cannot be upgraded."
    time: 1000
    }
 ]
-requirements: [
+researchCost: [
 "cobalt/500"
 "titanium/345"
 "carbon/250"
 ]
+research: {
+parent: Core-Fractal
+objectives: [cryo panel] [cryo node]
+}
