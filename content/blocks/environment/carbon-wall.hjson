@@ -1,0 +1,6 @@
+name: "Carbonite Wall"
+variants: 1
+type: StaticWall
+attributes: {
+carbon: 1
+}
