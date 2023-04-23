@@ -1,0 +1,23 @@
+type: WallCrafter
+name: "Wall Crusher"
+category: production
+size: 2
+requirements: [
+"cobalt/95"
+"titanium/30"
+]
+description: "Crushes up walls outputting carbon."
+consumes: {
+power: 1
+}
+drillTime: 600
+attribute: carbon
+output: carbon
+research: {
+parent: cobalt-drill
+objectives: [cobalt-drill]
+}
+researchCost: [
+"cobalt/185"
+"titanium/75"
+]
